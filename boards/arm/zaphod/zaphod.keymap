@@ -82,6 +82,7 @@ keymap {
     compatible = "zmk,keymap";
 
     default_layer {
+        label = "Base";
         bindings = <
             &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &kp P
             &lt NAV A       &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &kp APOS
@@ -91,6 +92,7 @@ keymap {
     };
 
     lnav_layer {
+        label = "NavLock";
         bindings = <
             _______         &kp HOME        &kp UP          &kp END         &kp PG_UP       _______         _______         _______         _______         _______
             _______         &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       _______         _______         _______         _______         _______
@@ -100,6 +102,7 @@ keymap {
     };
 
     nav_layer {
+        label = "Nav";
         bindings = <
             &bt BT_CLR      _______         &kp LGUI        &kp DEL         &kp BSPC        &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp BKSP
             _______         &kp LALT        &kp LSHFT       &kp LCTRL       &kp ENTER       &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &kp DEL
@@ -109,6 +112,7 @@ keymap {
     };
 
     sym_layer {
+        label = "Sym";
         bindings = <
             &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0
             _______         _______         _______         _______         _______         &kp SEMI        &kp MINUS       &kp EQUAL       &kp LBKT        &kp RBKT
@@ -118,6 +122,7 @@ keymap {
     };
 
     func_layer {
+        label = "Func";
         bindings = <
             _______         &kp F7          &kp F8          &kp F9          &kp F10         &kp F10         &kp F7          &kp F8          &kp F9          _______
             _______         &kp F4          &kp F5          &kp F6          &kp F11         &kp F11         &kp F4          &kp F5          &kp F6          _______
@@ -127,6 +132,7 @@ keymap {
     };
 
     disable_layer {
+        label = "Disable";
         bindings = <
             XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX
             XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX         XXXXXXX
