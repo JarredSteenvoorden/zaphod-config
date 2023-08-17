@@ -63,9 +63,9 @@ behaviors {
         combo_lctrl { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <11 13>;         bindings = <&st LCTRL LCTRL>; };
         combo_lalt  { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <21 23>;         bindings = <&st LALT LALT>; };
 
-        combo_ralt  { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <6 8>;           bindings = <&st RALT RALT>; };
+        combo_ralt  { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <6 8>;           bindings = <&st RGUI RGUI>; };
         combo_rctrl { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <16 18>;         bindings = <&st RCTRL RCTRL>; };
-        combo_rgui  { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <26 28>;         bindings = <&st RGUI RGUI>; };
+        combo_rgui  { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <26 28>;         bindings = <&st RALT RALT>; };
 
         // Cut, Copy, Paste
         combo_cut   { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <21 22 23>;      bindings = <&kp LC(X)>; };
@@ -74,7 +74,8 @@ behaviors {
 
         // Left hand nav toggle, function layer
         combo_lnav  { timeout-ms = COMBO_TIMEOUT; layers = <BASE LNAV>; key-positions = <11 2 13>;  bindings = <&tog LNAV>; };
-        combo_func  { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <12 13>;         bindings = <&sl FUNC>; };
+        combo_lfunc { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <12 13>;         bindings = <&sl FUNC>; };
+        combo_rfunc { timeout-ms = COMBO_TIMEOUT; layers = <BASE>; key-positions = <16 17>;         bindings = <&sl FUNC>; };
     };
 };
 
